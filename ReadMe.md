@@ -1,4 +1,4 @@
-<img style="float:left; width:22%; margin:0px 20px 0px 0px;" src="AolongZHA.jpg" />
+<img style="float:left; width:21%; margin:0px 20px 0px 0px;" src="AolongZHA.jpg" />
 
 I am an project assistant professor in 
 the Research Center for Advanced Science and Technology, The University of Tokyo, 

@@ -4,9 +4,10 @@ title: Aolong Zha
 ---
 
 <img style="float:left; width:20%; margin:0px 25px 0px 0px;" src="AolongZHA.jpg" />
+
 I am an project assistant professor in 
 the Research Center for Advanced Science and Technology, The University of Tokyo, 
-and belonging to [the Advanced Logistics Science Laboratory](http://park.itc.u-tokyo.ac.jp/logistics/wp). 
+and belonging to [the Progressive Logistics Science Laboratory](https://www.rcast.u-tokyo.ac.jp/en/research/progressive_logistic_Science.html). 
 
 My research focuses on **Search**, **Constraint Satisfaction**, 
 and **Combinatorial Optimization**. 

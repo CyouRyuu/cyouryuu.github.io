@@ -3,7 +3,7 @@ layout: page
 title: Aolong Zha
 ---
 
-<img style="float:left; width:20%; margin:0px 20px 0px 0px;" src="AolongZHA.jpg" />
+<img style="float:left; width:22%; margin:0px 20px 0px 0px;" src="AolongZHA.jpg" />
 I am an project assistant professor in 
 the Research Center for Advanced Science and Technology, The University of Tokyo, 
 and belonging to [the Progressive Logistics Science Laboratory](https://www.rcast.u-tokyo.ac.jp/en/research/progressive_logistic_Science.html). 

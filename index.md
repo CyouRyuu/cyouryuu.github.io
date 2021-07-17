@@ -34,9 +34,9 @@ Email: cyouryuuryuu at gmail dot com <br>
 <!--Tel: +81-->
 
 ### News
-- My homepage is migrated from google sites. (Apr. 2021)
-- Our short paper has been published in the proceedings of HSCC-21. (May. 2021)
 - I gave a lecture on Advanced Information Systems. (Jun. 2021)
+- Our short paper has been published in the proceedings of HSCC-21. (May. 2021)
+- My homepage is migrated from google sites. (Apr. 2021)
 
 ### Selected Publications
 To see a full list of my publications, please refer to [my DBLP entry](https://dblp.org/pid/207/5208) and/or [my Google Scholar page](https://scholar.google.com/citations?user=iNdsu_kAAAAJ):

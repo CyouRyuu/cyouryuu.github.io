@@ -30,7 +30,7 @@ Email: cyouryuuryuu at gmail dot com <br>
 <!--Tel: +81-->
 
 ### News
-- I gave a lecture on Advanced Information Systems. (Jun. 2021)
+- I gave a lecture on *Advanced Information Systems*. (Jun. 2021)
 - Our short paper has been published in the proceedings of HSCC-21. (May. 2021)
 - My homepage is migrated from google sites. (Apr. 2021)
 

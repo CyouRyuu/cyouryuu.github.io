@@ -20,7 +20,7 @@ Further information on my research can be found at
 [DBLP](https://dblp.org/pid/207/5208), and 
 [researchmap](https://researchmap.jp/aolong_zha). 
 
-[CV](cv-202109.pdf) (updated on Sep. 2021)
+[CV](cv-202203.pdf) (updated on Mar. 2022)
 
 <!--
 **Contact Information**:
@@ -34,9 +34,9 @@ Email: cyouryuuryuu at gmail dot com <br>
 <!--Tel: +81-->
 
 ### News
+- Our paper is accepted by *Journal of Systems Architecture*. (Feb. 2022)
 - I gave a lecture on *Advanced Information Systems*. (Jun. 2021)
-- Our short paper has been published in the proceedings of HSCC-21. (May. 2021)
-- My homepage is migrated from google sites. (Apr. 2021)
+- Our short paper has been published in *the proceedings of HSCC-21*. (May. 2021)
 
 ### Selected Publications
 To see a full list of my publications, please refer to [my DBLP entry](https://dblp.org/pid/207/5208) and/or [my Google Scholar page](https://scholar.google.com/citations?user=iNdsu_kAAAAJ):

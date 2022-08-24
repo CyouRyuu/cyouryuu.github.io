@@ -16,7 +16,7 @@ Further information on my research can be found at
 [DBLP](https://dblp.org/pid/207/5208), and 
 [researchmap](https://researchmap.jp/aolong_zha). 
 
-[CV](cv-202203.pdf) (updated on Mar. 2022)
+[CV](cv-202208.pdf) (updated on Aug. 2022)
 
 <!--
 **Contact Information**:
@@ -30,15 +30,15 @@ Email: cyouryuuryuu at gmail dot com <br>
 <!--Tel: +81-->
 
 ### News
-- Our paper is accepted by *Journal of Systems Architecture*. (Feb. 2022)
-- I gave a lecture on *Advanced Information Systems*. (Jun. 2021)
-- Our short paper has been published in *the proceedings of HSCC-21*. (May. 2021)
+- Our article is accepted by *Discrete Applied Mathematics*. (Aug. 2022)
+- I gave a lecture on *Advanced Information Systems*. (Jun. 2022)
+- Our article has been published in *Journal of Systems Architecture*. (Apr. 2022)
 
 ### Selected Publications
 To see a full list of my publications, please refer to [my DBLP entry](https://dblp.org/pid/207/5208) and/or [my Google Scholar page](https://scholar.google.com/citations?user=iNdsu_kAAAAJ):
+- **An Incremental SAT-Based Approach for Solving the Real-Time Taxi-Sharing Service Problem**. Discret. Appl. Math., 2022. (with Qiong Chang, and Itsuki Noda)
 - **CNF Encodings for the Min-Max Multiple Traveling Salesmen Problem**. ICTAI-20. (with Rongxuan Gao, Qiong Chang, Miyuki Koshimura, and Itsuki Noda)
 - ***N*-level Modulo-Based CNF Encodings of Pseudo-Boolean Constraints for MaxSAT**. Constraints An Int. J., 2019. (with Miyuki Koshimura, and Hiroshi Fujita)
-- **Mixed Radix Weight Totalizer Encoding for Pseudo-Boolean Constraints.**. ICTAI-17. (with Naoki Uemura, Miyuki Koshimura, and Hiroshi Fujita)
 - **Coalition Structure Generation for Partition Function Games Utilizing a Concise Graphical Representation**. PRIMA-17. (with Kazuki Nomoto, Suguru Ueda, Miyuki Koshimura, Yuko Sakurai, and Makoto Yokoo)
 
 ### Competition Awards

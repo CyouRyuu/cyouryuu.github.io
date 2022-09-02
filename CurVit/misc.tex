@@ -1,6 +1,8 @@
 \makerubrichead{Miscellaneous Achievements}
 
-%\printbibliography[heading={subbibliography},title={Preprints},type=booklet]
+\DeclareFieldFormat[booklet]{title}{\textrm{#1}}
+\DeclareFieldFormat[booklet]{note}{\emph{#1}}
+\printbibliography[heading={subbibliography},title={Preprints},type=booklet]
 
 \printbibliography[heading={subbibliography},title={Presentations},type=proceedings]
 

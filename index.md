@@ -20,7 +20,7 @@ Further information on my research can be found at
 [DBLP](https://dblp.org/pid/207/5208), and 
 [researchmap](https://researchmap.jp/aolong_zha). 
 
-[CV](cv-202308.pdf) (updated on Apr. 2023)
+[CV](cv-202308.pdf) (updated on Aug. 2023)
 
 <!--
 **Contact Information**:

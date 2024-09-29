@@ -1,3 +1,9 @@
+---
+layout: page
+math: true
+# Index page
+---
+
 I am Aolong Zha, a computer science researcher. My research focuses on **Search**, **Constraint Satisfaction**, **Combinatorial Optimization**, and **GPGPU**. I am also interested in the improvement of SAT/MaxSAT solvers and CNF encodings for application problems including *resource allocation*, *route planning*, *scheduling*, etc. Further information on my research can be found at [Google Scholar](https://scholar.google.com/citations?user=iNdsu_kAAAAJ), 
 [DBLP](https://dblp.org/pid/207/5208), and 
 [researchmap](https://researchmap.jp/aolong_zha). 

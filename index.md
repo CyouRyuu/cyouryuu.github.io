@@ -1,6 +1,5 @@
 ---
 layout: page
-math: true
 # Index page
 ---
 

@@ -1,11 +1,13 @@
 ---
 layout: post
-title: 機械とアルゴリズム
-date: 2024-09-29 21:38 +0900
-categories: [Algorithms & Data Structures, 00.序]
-tags: [計算量理論]
+title: "機械・算法"
+date: 2024-09-24 00:00 +0000
+categories:
+- Algorithms & Data Structures
+- 00-Introduction
+tags:
+- Computability
 ---
-
 計算を行うためのモデルとして、機械の概念が登場する。機械は計算を実行するための抽象的なモデルであり、その具体的な実装は多岐にわたる。
 
 ### 有限オートマトン
@@ -20,10 +22,10 @@ $$
 
 [タプル (Tuple)](https://ja.wikipedia.org/?curid=223490) における $M$ で、$Q$ は状態の集合、$\Sigma$ は入力アルファベット、$\delta: Q \times\Sigma\to Q$ は状態遷移函数、$q_0\in Q$ は初期状態、$F \subseteq Q$ は受理状態の集合である。有限オートマトン $M$ は、**正則言語 (regular language)**を受理する能力を持つ。
 
-$$\Sigma=\{\texttt{0},\texttt{1}\}$$ 上の数字列が与えられ、その中に連続する $3$ 数字として $\texttt{010}$ が現れるか否か知りたいとしよう。例えば与えられた数字列が $\texttt{01100101}$ であるときは条件を満すと判断（受理）し、$\texttt{01100110}$ であるときは満さないと判断（不受理）したい。つまり、正則言語
+$$\Sigma=\{\texttt{a},\texttt{b}\}$$ 上の文字列が与えられ、その中に連続する $3$ 文字として $\texttt{aba}$ が現れるか否か知りたいとしよう。例えば与えられた文字列が $\texttt{abbaabab}$ であるときは条件を満すと判断（受理）し、$\texttt{abbaabba}$ であるときは満さないと判断（不受理）したい。つまり、正則言語
 
 $$
-\text{C}{\scriptsize\text{ONTAINS-010}}=\{x\in\Sigma^*:xは\texttt{010}という連続する3数字を含む\}
+\text{C}{\scriptsize\text{ONTAINS-ABA}}=\{x\in\Sigma^*:xは\texttt{aba}という連続する3文字を含む\}
 $$
 
 に属するか否かを正しく区別したいのである。下図のような仕掛を有限状態機械という。
@@ -35,8 +37,7 @@ $$
 	every arrow/.append style={red,thick}
 }
 \begin{tikzcd}[line width=1pt]
-|[shape=circle,draw=red,red,alias=A] | q_0\arrow[loop left,"\texttt{1}"]\arrow[r,"\texttt{0}"] & |[shape=circle,draw=red,red] | q_1\arrow[loop above,"\texttt{0}"]\arrow[r,"\texttt{1}"] & |[shape=circle,draw=red,red,alias=B] | q_2\arrow[l,bend left=30,from=B,to=A]{}{\texttt{1}}\arrow[r,"\texttt{0}"] & |[shape=circle,double=red!50,draw=red,red] | q_3\arrow[loop right,"\texttt{0,1}"]\\
-|[draw=none,fill=none] | {}
+|[shape=circle,draw=red,red,alias=A] | q_0\arrow[loop left,"\texttt{b}"]\arrow[r,"\texttt{a}"] & |[shape=circle,draw=red,red] | q_1\arrow[loop above,"\texttt{a}"]\arrow[r,"\texttt{b}"] & |[shape=circle,draw=red,red,alias=B] | q_2\arrow[l,bend left=30,from=B,to=A]{}{\texttt{b}}\arrow[r,"\texttt{a}"] & |[shape=circle,double=red!50,draw=red,red] | q_3\arrow[loop right,"\texttt{a,b}"]
 \end{tikzcd}
 </script>
 </center>
@@ -47,20 +48,20 @@ $$
 
 |状態|意味|
 |:-:|:-:|
-|$q_0$|まだ $\texttt{010}$ は現れておらず、現時点で最後が $\texttt{0}$ でも $\texttt{01}$ でもない|
-|$q_1$|まだ $\texttt{010}$ は現れていないが、現時点で最後の数字は $\texttt{0}$ である|
-|$q_2$|まだ $\texttt{010}$ は現れていないが、現時点で最後の二つの数字は $\texttt{01}$ である|
-|$q_3$|既に $\texttt{010}$ は現れた|
+|$q_0$|まだ $\texttt{aba}$ は現れておらず、現時点で最後が $\texttt{a}$ でも $\texttt{ab}$ でもない|
+|$q_1$|まだ $\texttt{aba}$ は現れていないが、現時点で最後の数字は $\texttt{a}$ である|
+|$q_2$|まだ $\texttt{aba}$ は現れていないが、現時点で最後の二つの数字は $\texttt{ab}$ である|
+|$q_3$|既に $\texttt{aba}$ は現れた|
 
-如何に長い数字列を読まされても、この $4$ 通りに分類してさえおけば以後の判断に困らないという。正則言語 $\text{C}{\scriptsize\text{ONTAINS-010}}$ の単純さを利用していたといえる。
+如何に長い文字列を読まされても、この $4$ 通りに分類してさえおけば以後の判断に困らないという。正則言語 $\text{C}{\scriptsize\text{ONTAINS-ABA}}$ の単純さを利用していたといえる。
 
-そのような性質をもたない入力（言語）もあり、有限オートマトンでは認識できない。例えば幾つかの連続した $\texttt{0}$ の後に同数の $\texttt{1}$ が続くという形をした数字列の全体、すなわち
+そのような性質をもたない入力（言語）もあり、有限オートマトンでは認識できない。例えば、$$\Sigma=\{\texttt{a},\texttt{b}\}$$ 上、幾つかの連続した $\texttt{a}$ の後に同数の $\texttt{b}$ が続くという形をした文字列の全体、すなわち
 
 $$
-\texttt{0}^N\texttt{1}^N=\{x\in\Sigma^*:\exists n\in\mathbb{Z}_{>0}, x=\texttt{0}^n\texttt{1}^n\}
+\text{C}{\scriptsize\text{ONTAINS-ANBN}} =\{x\in\Sigma^*:\exists n\in\mathbb{Z}_{>0}, x=\texttt{a}^n\texttt{b}^n\}
 $$
 
-がそれである。これを認識するには $\texttt{0}$ の個数を完全に数えねばならず、それは幾らでも大きくなりうるので、状態が有限個では無理である。
+がそれである。これを認識するには $\texttt{a}$ の個数を完全に数えねばならず、それは幾らでも大きくなりうるので、状態が有限個では無理である。
 
 ### チューリング機械
 

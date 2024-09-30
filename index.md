@@ -1,5 +1,6 @@
 ---
 layout: page
+title: $\ell_\mathtt{edge}\!\leftarrow\!\mathbb{K}_{n(o,\omega)}$
 # Index page
 ---
 

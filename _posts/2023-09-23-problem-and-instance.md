@@ -12,7 +12,7 @@ tags:
 
 チューリングは $1936$ 年に「計算可能性」に関する論文[^1]を発表し、問題を形式的に定義する重要性を強調した。ここで彼は、任意の計算可能な問題を解くための「チューリング機械」という抽象的なモデルを提案した。このモデルは、あらゆる問題の解決に用いることができ、計算の枠組みを整える重要な役割を果たした。
 
-[^1]: Turing, A. M. (1936). ["On Computable Numbers, with an Application to the Entscheidungsproblem"](https://doi.org/10.1112/plms/s2-42.1.230). Proceedings of the London Mathematical Society. 2 42: 230–65. 1936–37.
+[^1]: Turing, A. M. ["On Computable Numbers, with an Application to the Entscheidungsproblem"](https://doi.org/10.1112/plms/s2-42.1.230). (1936)
 
 **問題 (problem)**は通常、以下のように定義される：
 

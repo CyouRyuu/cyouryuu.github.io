@@ -28,7 +28,9 @@ $$
 \text{C}{\scriptsize\text{ONTAINS-ABA}}=\{x\in\Sigma^*:xは\texttt{aba}という連続する3文字を含む\}
 $$
 
-に属するか否かを正しく区別したいのである。下図のような仕掛を有限状態機械という。
+に属するか否かを正しく区別したいのである。下図のような仕掛を有限状態機械という。[^1]
+
+[^1]: 河村 彰星. [「計算量理論　演習問題」](https://www.kurims.kyoto-u.ac.jp/~kawamura/keisanryo/enshu.html). (2014)
 
 <center>
 <script type="text/tikz">

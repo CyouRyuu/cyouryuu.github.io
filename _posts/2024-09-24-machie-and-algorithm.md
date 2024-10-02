@@ -30,7 +30,7 @@ $$
 
 に属するか否かを正しく区別したいのである。下図のような仕掛を有限状態機械という。[^1]
 
-[^1]: 河村 彰星. [「計算量理論　演習問題」](https://www.kurims.kyoto-u.ac.jp/~kawamura/keisanryo/enshu.html). (2014)
+[^1]: この内容については、河村彰星先生の[「計算量理論　演習問題」](https://www.kurims.kyoto-u.ac.jp/~kawamura/keisanryo/enshu.html)を参考した。
 
 <center>
 <script type="text/tikz">

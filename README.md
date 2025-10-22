@@ -1,15 +1,13 @@
-I am Aolong Zha, a computer science researcher. My research focuses on **Search**, **Constraint Satisfaction**, **Combinatorial Optimization**, and **GPGPU**. I am also interested in the improvement of SAT/MaxSAT solvers and CNF encodings for application problems including *resource allocation*, *route planning*, *scheduling*, etc. Further information on my research can be found at [Google Scholar](https://scholar.google.com/citations?user=iNdsu_kAAAAJ), 
-[DBLP](https://dblp.org/pid/207/5208), and 
-[researchmap](https://researchmap.jp/aolong_zha). 
+### Creating a Site Repository
 
-[CV](cv-202409.pdf) (Updated on Sep. 2024)
+1. Sign in to GitHub and navigate to the [**starter**](https://github.com/cotes2020/chirpy-starter).
+2. Click the <kbd>Use this template</kbd> button and then select <kbd>Create a new repository</kbd>.
+3. Name the new repository `<username>.github.io`, replacing `username` with your lowercase GitHub username.
 
-### Employment
-- (2021.04 -- 2024.01) **Project Assistant Professor**, Research Center for Advanced Science and Technology, The University of Tokyo, Japan
-- (2018.11 -- 2021.03) **Postdoctoral Researcher**, Artificial Intelligence Research Center, National Institute of Advanced Industrial Science and Technology, Japan
-- (2018.04 -- 2018.10) **Technical Staff**, Faculty of Information Science and Electrical Engineering, Kyushu University, Japan
+### Setting Up and Run
 
-### Education
-- (2015.04 -- 2018.03) **Ph.D.**, *Informatics*, Graduate School of ISEE, Kyushu University, Japan
-- (2013.04 -- 2015.03) **M.Sc.**, *Informatics*, Graduate School of ISEE, Kyushu University, Japan
-- (2008.09 -- 2012.06) **B.Eng.**, *Network Engineering*, College of Math. and Info., South China Agriculture University, China
+1. Follow the [Jekyll installation guide](https://jekyllrb.com/docs/installation/) to install Jekyll and ensure [Git](https://git-scm.com/) is installed.
+2. Clone your repository to your local machine.
+3. Run command `bundle` in the root of your repository to install the dependencies.
+4. Run `bash ./tools/test.sh` to build and test the site content.
+5. Run `bash ./tools/run.sh` to launch the site locally.

@@ -149,10 +149,6 @@ pwa:
 
 # paginate: 10
 
-include:
-  - _includes/favicons.html
-  - assets/img/favicons
-
 # The base URL of your site
 baseurl: ""
 

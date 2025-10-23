@@ -4,7 +4,7 @@ layout: page
 # Index page
 ---
 
-I am Aolong Zha, a computer science researcher at Wakayama University, Faculty and Department of Systems Engineering. My research focuses on **Search Algorithm**, **Boolean Satisfiability**, **Combinatorial Optimization**, and **GPGPU**. I am also interested in the improvement of SAT/MaxSAT solvers and CNF encodings for application problems including _resource allocation_, _route planning_, _scheduling_, etc. Further information on my research can be found at [Google Scholar](https://scholar.google.com/citations?user=iNdsu_kAAAAJ), 
+I am Aolong Zha, a computer science researcher. My research focuses on **Search Algorithm**, **Combinatorial Optimization**, **Operations Research**, and **GPGPU**. I am also interested in the improvement of SAT/MaxSAT solvers and CNF encodings for application problems including _resource allocation_, _route planning_, _scheduling_, etc. Further information on my research can be found at [Google Scholar](https://scholar.google.com/citations?user=iNdsu_kAAAAJ), 
 [DBLP](https://dblp.org/pid/207/5208), and 
 [researchmap](https://researchmap.jp/aolong_zha). 
 

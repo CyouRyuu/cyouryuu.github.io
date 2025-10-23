@@ -18,8 +18,7 @@ timeline
 
 #### **研究キーワード**
 
-探索アルゴリズム，充足可能性問題，組合せ最適化，資源分配，経路計画，
-ジョブショップ・スケジューリング，GPUによる汎用計算<br>
+探索アルゴリズム、充足可能性問題、組合せ最適化、オペレーションズ・リサーチ、GPGPU<br>
 [Google Scholar](https://scholar.google.com/citations?user=iNdsu_kAAAAJ)・
 [DBLP](https://dblp.org/pid/207/5208)・
 [researchmap](https://researchmap.jp/aolong_zha)

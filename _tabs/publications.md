@@ -131,7 +131,7 @@ async function toggleBib(id, btn) {
 
   if (!bibDiv.dataset.loaded) {
     try {
-      const res = await fetch("/bibs.html");
+      const res = await fetch("{{ '/bibs.html' | relative_url }}");
       const text = await res.text();
       const parser = new DOMParser();
       const doc = parser.parseFromString(text, "text/html");

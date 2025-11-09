@@ -118,7 +118,7 @@ _ICTAI 2017: 29th International Conference on Tools with Artificial Intelligence
 
 
 <script>
-async function toggleBib(id, btn) {
+window.toggleBib = async function(id, btn) {
   const bibDiv = document.getElementById(id);
   const isOpen = bibDiv.classList.contains("open");
 

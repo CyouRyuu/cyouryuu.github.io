@@ -124,60 +124,56 @@ window.toggleBib = async function(id, btn) {
 
   if (isOpen) {
     bibDiv.classList.remove("open");
-    // 移除发光状态
     btn.classList.remove("active");
     return;
   }
 
   if (!bibDiv.dataset.loaded) {
     try {
-      const res = await fetch("{{ '/bibs.html' | relative_url }}");
+      const res = await fetch("/bibs.html");
       const text = await res.text();
       const parser = new DOMParser();
       const doc = parser.parseFromString(text, "text/html");
-      const span = doc.querySelector(`span#${id}`);
+      const span = doc.querySelector("span#" + id);
       const pre = span ? span.nextElementSibling.cloneNode(true) : null;
 
       if (pre) {
-        // 克隆 <pre>
         const cleanPre = pre.cloneNode(true);
         let html = cleanPre.innerHTML;
 
-        // 提取 DOI 和 URL
         const doiMatch = html.match(/\bdoi\s*=\s*\{([^}]+)\}/i);
         const urlMatch = html.match(/\burl\s*=\s*\{([^}]+)\}/i);
 
         if (doiMatch) {
           const doi = doiMatch[1].trim();
-          const href = `https://doi.org/${doi}`;
+          const href = "https://doi.org/" + doi;
           html = html.replace(
             doiMatch[0],
-            `doi = {<a class="doi-link" href="${href}" target="_blank" rel="noopener">${doi}</a>}`
+            'doi = {<a class="doi-link" href="' + href + '" target="_blank" rel="noopener">' + doi + "</a>}"
           );
         } else if (urlMatch) {
           const url = urlMatch[1].trim();
           html = html.replace(
             urlMatch[0],
-            `url = {<a class="doi-link" href="${url}" target="_blank" rel="noopener">${url}</a>}`
+            'url = {<a class="doi-link" href="' + url + '" target="_blank" rel="noopener">' + url + "</a>}"
           );
         }
 
         cleanPre.innerHTML = html;
-        bibDiv.innerHTML = `<div class="bib-inner">${cleanPre.outerHTML}</div>`;
+        bibDiv.innerHTML = '<div class="bib-inner">' + cleanPre.outerHTML + '</div>';
         bibDiv.dataset.loaded = "true";
       } else {
-        bibDiv.innerHTML = `<p style="color:red;">BibTeX not found.</p>`;
+        bibDiv.innerHTML = '<p style="color:red;">BibTeX not found.</p>';
       }
     } catch (err) {
       console.error(err);
-      bibDiv.innerHTML = `<p style="color:red;">Failed to load BibTeX.</p>`;
+      bibDiv.innerHTML = '<p style="color:red;">Failed to load BibTeX.</p>';
     }
   }
 
   bibDiv.classList.add("open");
-  // 添加发光状态
   btn.classList.add("active");
-}
+};
 </script>
 
 

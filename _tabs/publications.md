@@ -58,6 +58,12 @@ _Constraints_, 2019
 
 #### Conference
 
+- <span style="color:orange;">Phase-guided incremental MaxSAT for dynamic routing</span><br>
+**Aolong Zha**, Qianwei Zhuang$^*$, Naoto Imura, Qiong Chang, Miyuki Koshimura<br>
+_SMC 2026: 56th International Conference on Systems, Man and Cybernetics_
+&nbsp;<button class="bib-button" onclick="toggleBib('Zha_P', this)"><span class="math">$\\BibTeX$</span></button>
+<div id="Zha_P" class="bibtex"></div>
+
 - <span style="color:orange;">A case study of the profit-maximizing multi-vehicle pickup and delivery selection problem for the road networks with the integratable nodes</span><br>
 **Aolong Zha$^*$**, Qiong Chang, Naoto Imura, Katsuhiro Nishinari<br>
 _ICCS 2023: 23rd International Conference on Computational Science_

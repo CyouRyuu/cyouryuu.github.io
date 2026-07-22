@@ -19,7 +19,7 @@ I am Aolong Zha, a computer science researcher. My research focuses on **Search 
 - (2013.04 -- 2015.03) **M.Sc.**, _Info._, Graduate School of ISEE, Kyushu University, Japan
 - (2008.09 -- 2012.06) **B.Eng.**, _Network Engineering_, College of Math. and Info., South China Agriculture University, China
 
-> **📢 For Prospective International Graduate Students**
+> **For Prospective International Graduate Students**
 >
 > I welcome inquiries from international students holding a bachelor's or master's degree who are interested in pursuing graduate studies in my laboratory at Wakayama University. This includes applicants intending to enroll as a *Research Student* before entering a degree program, as well as those applying directly to a master's or doctoral program through scholarship or other admission schemes.
-{: .prompt-tip}
+{: .prompt-info}

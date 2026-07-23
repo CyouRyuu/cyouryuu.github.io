@@ -114,13 +114,6 @@ _ICTAI 2017: 29th International Conference on Tools with Artificial Intelligence
 
 ---
 
-<div style="text-align: right; margin-top: 1em; font-size: 0.85em; opacity: 0.7;">
-  Rank Reference: 
-  <button onclick="window.open('https://ccf.atom.im/', '_blank')" style="background: none; border: none; padding: 0; color: red; cursor: pointer;">CCF Portal</button>
-  <span style="margin: 0 4px; color: inherit;">|</span>
-  <button onclick="window.open('https://www.core.edu.au/conference-portal', '_blank')" style="background: none; border: none; padding: 0; color: red; cursor: pointer;">CORE Portal</button>
-</div>
-
 <div style="text-align: right; margin-top: 0.5em;">
   Here is my full 
   <button class="bib-button" onclick="window.open('/bibs.html#Zha_Bib', '_blank')">

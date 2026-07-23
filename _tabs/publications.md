@@ -8,7 +8,8 @@ order: 4
 
 - <span style="color:orange">An optimized GPU implementation for GIST descriptor</span><br>
 Xiang Li, Qiong Chang$^*$, **Aolong Zha**, Shijie Chang, Yun Li, Jun Miyazaki<br>
-_ACM Transactions on Architecture and Code Optimization_, 2024 <span style="color:red">**[CCF-A][CORE-B]**</span>
+_ACM Transactions on Architecture and Code Optimization_, 2024
+&nbsp;<span style="color:red">[CCF-A][CORE-B]</span>
 &nbsp;<button class="bib-button" onclick="toggleBib('Li_An', this)"><span class="math">$\\BibTeX$</span></button>
 <div id="Li_An" class="bibtex"></div>
 
@@ -20,7 +21,8 @@ _Journal of Japan Logistics Society_, 2024
 
 - <span style="color:orange">TinyStereo: a tiny coarse-to-fine framework for vision-based depth estimation on embedded GPUs</span><br>
 Qiong Chang, Xin Xu, **Aolong Zha**, Meng Joo Er, Yongqing Sun, Yun Li<br>
-_IEEE Transactions on Systems, Man, and Cybernetics: Systems_, 2024 <span style="color:red">**[CCF-B][CORE-B]**</span>
+_IEEE Transactions on Systems, Man, and Cybernetics: Systems_, 2024
+&nbsp;<span style="color:red">[CCF-B][CORE-B]</span>
 &nbsp;<button class="bib-button" onclick="toggleBib('Chang_Tin', this)"><span class="math">$\\BibTeX$</span></button>
 <div id="Chang_Tin" class="bibtex"></div>
 
@@ -32,25 +34,29 @@ _Journal of Japan Logistics Society_, 2024
 
 - <span style="color:orange;">An incremental SAT-based approach for solving the real-time taxi-sharing service problem</span><br>
 **Aolong Zha**, Qiong Chang$^*$, Itsuki Noda<br>
-_Discrete Applied Mathematics_, 2023 <span style="color:red">**[CCF C]**</span>
+_Discrete Applied Mathematics_, 2023
+&nbsp;<span style="color:red">[CCF C]</span>
 &nbsp;<button class="bib-button" onclick="toggleBib('Zha_An', this)"><span class="math">$\\BibTeX$</span></button>
 <div id="Zha_An" class="bibtex"></div>
 
 - <span style="color:orange">Efficient stereo matching on embedded GPUs with zero-means cross correlation</span><br>
 Qiong Chang, **Aolong Zha$^*$**, Weimin Wang, Xin Liu, Masaki Onishi, Lei Lei, Meng Joo Er, Tsutomu Maruyama<br>
-_Journal of Systems Architecture_, 2022 <span style="color:red">**[CCF-B][CORE-B]**</span>
+_Journal of Systems Architecture_, 2022
+&nbsp;<span style="color:red">[CCF-B][CORE-B]</span>
 &nbsp;<button class="bib-button" onclick="toggleBib('Chang_Effi', this)"><span class="math">$\\BibTeX$</span></button>
 <div id="Chang_Effi" class="bibtex"></div>
 
 - <span style="color:orange;">Coalition structure generation for partition function games utilizing partition decision trees</span> (in Japaneses)<br>
 **Aolong Zha**, Miyuki Koshimura$^*$, Yuko Sakurai, Makoto Yokoo<br>
-_IEICE Transactions on Information and Systems_, 2019 <span style="color:red">**[CORE-C]**</span>
+_IEICE Transactions on Information and Systems_, 2019
+&nbsp;<span style="color:red">[CORE-C]</span>
 &nbsp;<button class="bib-button" onclick="toggleBib('Zha_Coali', this)"><span class="math">$\\BibTeX$</span></button>
 <div id="Zha_Coali" class="bibtex"></div>
 
 - <span style="color:orange;">_N_-level modulo-based CNF encodings of pseudo-Boolean constraints for MaxSAT</span><br>
 **Aolong Zha$^*$**, Miyuki Koshimura, Hiroshi Fujita<br>
-_Constraints_, 2019 <span style="color:red">**[CORE-A]**</span>
+_Constraints_, 2019
+&nbsp;<span style="color:red">[CORE-A]</span>
 &nbsp;<button class="bib-button" onclick="toggleBib('Zha_N', this)"><span class="math">$\\BibTeX$</span></button>
 <div id="Zha_N" class="bibtex"></div>
 
@@ -60,31 +66,36 @@ _Constraints_, 2019 <span style="color:red">**[CORE-A]**</span>
 
 - <span style="color:orange;">Phase-guided incremental MaxSAT for dynamic routing</span><br>
 **Aolong Zha**, Qianwei Zhuang$^*$, Naoto Imura, Qiong Chang, Miyuki Koshimura<br>
-_SMC 2026: 56th International Conference on Systems, Man and Cybernetics_ <span style="color:red">**[CCF-C][CORE-B]**</span>
+_SMC 2026: 56th International Conference on Systems, Man and Cybernetics_
+&nbsp;<span style="color:red">[CCF-C][CORE-B]</span>
 &nbsp;<button class="bib-button" onclick="toggleBib('Zha_P', this)"><span class="math">$\\BibTeX$</span></button>
 <div id="Zha_P" class="bibtex"></div>
 
 - <span style="color:orange;">A case study of the profit-maximizing multi-vehicle pickup and delivery selection problem for the road networks with the integratable nodes</span><br>
 **Aolong Zha$^*$**, Qiong Chang, Naoto Imura, Katsuhiro Nishinari<br>
-_ICCS 2023: 23rd International Conference on Computational Science_ <span style="color:red">**[CORE-A]**</span>
+_ICCS 2023: 23rd International Conference on Computational Science_
+&nbsp;<span style="color:red">[CORE-A]</span>
 &nbsp;<button class="bib-button" onclick="toggleBib('Zha_A', this)"><span class="math">$\\BibTeX$</span></button>
 <div id="Zha_A" class="bibtex"></div>
 
 - <span style="color:orange;">Hybrid modeling and predictive control of large-scale crowd movement in road network</span><br>
 Rongxuan Gao, **Aolong Zha**, Shusuke Shigenaka, Masaki Onishi<br>
-_HSCC 2021: 24th International Conference on Hybrid Systems: Computation and Control_ <span style="color:red">**[CCF-B]**</span>
+_HSCC 2021: 24th International Conference on Hybrid Systems: Computation and Control_
+&nbsp;<span style="color:red">[CCF-B]</span>
 &nbsp;<button class="bib-button" onclick="toggleBib('Gao_Hyb', this)"><span class="math">$\\BibTeX$</span></button>
 <div id="Gao_Hyb" class="bibtex"></div>
 
 - <span style="color:orange">Z<sup>2</sup>-ZNCC: zigzag scanning based zero-means normalized cross correlation for fast and accurate stereo matching on embedded GPU</span><br>
 Qiong Chang, **Aolong Zha$^*$**, Weimin Wang, Xin Liu, Masaki Onishi, Tsutomu Maruyama<br>
-_ICCD 2020: 38th International Conference on Computer Design_ <span style="color:red">**[CCF-B][CORE-C]**</span>
+_ICCD 2020: 38th International Conference on Computer Design_
+&nbsp;<span style="color:red">[CCF-B][CORE-C]</span>
 &nbsp;<button class="bib-button" onclick="toggleBib('Chang_Z2', this)"><span class="math">$\\BibTeX$</span></button>
 <div id="Chang_Z2" class="bibtex"></div>
 
 - <span style="color:orange;">CNF encodings for the min-max multiple traveling salesmen problem</span><br>
 **Aolong Zha**, Rongxuan Gao, Qiong Chang$^*$, Miyuki Koshimura, Itsuki Noda<br>
-_ICTAI 2020: 32nd International Conference on Tools with Artificial Intelligence_ <span style="color:red">**[CCF-C][CORE-B]**</span>
+_ICTAI 2020: 32nd International Conference on Tools with Artificial Intelligence_
+&nbsp;<span style="color:red">[CCF-C][CORE-B]</span>
 &nbsp;<button class="bib-button" onclick="toggleBib('Zha_CNF', this)"><span class="math">$\\BibTeX$</span></button>
 <div id="Zha_CNF" class="bibtex"></div>
 
@@ -102,17 +113,26 @@ _TAAI 2017: 22nd Conference on Technologies and Applications of Artificial Intel
 
 - <span style="color:orange;">Coalition structure generation for partition function games utilizing a concise graphical representation</span><br>
 **Aolong Zha$^*$**, Kazuki Nomoto, Suguru Ueda, Miyuki Koshimura, Yuko Sakurai, Makoto Yokoo<br>
-_PRIMA 2017: 20th International Conference on Principles and Practice of Multi-Agent Systems_ <span style="color:red">**[CORE-B]**</span>
+_PRIMA 2017: 20th International Conference on Principles and Practice of Multi-Agent Systems_
+&nbsp;<span style="color:red">[CORE-B]</span>
 &nbsp;<button class="bib-button" onclick="toggleBib('Zha_CSG', this)"><span class="math">$\\BibTeX$</span></button>
 <div id="Zha_CSG" class="bibtex"></div>
 
 - <span style="color:orange;">Mixed radix weight totalizer encoding for pseudo-Boolean constraints</span><br>
 **Aolong Zha**, Naoki Uemura, Miyuki Koshimura, Hiroshi Fujita<br>
-_ICTAI 2017: 29th International Conference on Tools with Artificial Intelligence_ <span style="color:red">**[CCF-C][CORE-B]**</span>
+_ICTAI 2017: 29th International Conference on Tools with Artificial Intelligence_
+&nbsp;<span style="color:red">[CCF-C][CORE-B]</span>
 &nbsp;<button class="bib-button" onclick="toggleBib('Zha_Mix', this)"><span class="math">$\\BibTeX$</span></button>
 <div id="Zha_Mix" class="bibtex"></div>
 
 ---
+
+<div style="text-align: right; margin-top: 1em; font-size: 0.85em; opacity: 0.7;">
+  Rank Reference: 
+  <a href="https://ccf.atom.im/" target="_blank" style="color: red; text-decoration: none; cursor: pointer;">CCF Portal</a>
+  <span style="margin: 0 4px; color: inherit;">|</span>
+  <a href="https://www.core.edu.au/conference-portal" target="_blank" style="color: red; text-decoration: none; cursor: pointer;">CORE Portal</a>
+</div>
 
 <div style="text-align: right; margin-top: 0.5em;">
   Here is my full 
